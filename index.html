@@ -46,8 +46,8 @@
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-6 hidden-xs text-right">
                               <div class="nav-links">
-                                <a href="#">Home</a>
-                                <a href="#contact">Contact</a>
+                                <a href="#home" class="inner-link">Home</a>
+                                <a href="#contact" class="inner-link">Contact</a>
                               </div>
                             </div>
                             <!-- start logo -->
@@ -113,10 +113,10 @@
             </header>
             <!-- end header -->
             <!-- start hero section -->
-            <section class="wow fadeIn no-padding mobile-height parallax" data-stellar-background-ratio="0.5" style="background-image: url(&quot;images/homepage-option18-banner.jpg&quot;); background-position: 0px 0px; visibility: visible; animation-name: fadeIn;">
+            <section id="home" class="wow fadeIn no-padding mobile-height parallax" data-stellar-background-ratio="0.5" style="background-image: url(&quot;images/homepage-option18-banner.jpg&quot;); background-position: 0px 0px; visibility: visible; animation-name: fadeIn;">
                 <div class="container text-center one-third-screen md-height-350px sm-height-500px xs-height-auto xs-padding-40px-top xs-padding-50px-bottom">
                     <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xs-12 display-table one-fourth-screen md-height-350px sm-height-500px xs-height-auto text-center wow bounceInRight xs-height-auto" style="visibility: visible; animation-name: bounceInRight;">
+                        <div class="col-md-12 col-sm-12 col-xs-12 display-table one-sixth-screen md-height-350px sm-height-500px xs-height-auto text-center wow bounceInRight xs-height-auto" style="visibility: visible; animation-name: bounceInRight;">
                             <div class="display-table-cell vertical-align-middle">
                                 <div class="font-weight-300 alt-font title-large text-extra-dark-gray display-inline-block vertical-align-bottom margin-auto">I'm <span class="font-weight-600 text-bold-underline position-relative">Simon Kateregga</span></div>
                                 <div class="text-medium-gray text-small text-uppercase margin-20px-top letter-spacing-2 alt-font xs-margin-10px-top">Entrepreneur &amp; Software Consultant</div>
@@ -124,9 +124,12 @@
                         </div>
                     </div>
                   </div>
-
+                  <a href="#work" class="inner-link">
+                    <div class="arrow arrow-first"></div>
+                    <div class="arrow arrow-second"></div>
+                  </a>
             </section>
-            <section class="no-padding-tb bg-light-gray wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+            <section class="no-padding-tb bg-light-gray wow fadeIn" id="work" style="visibility: visible; animation-name: fadeIn;">
               <div class="container-fluid no-padding">
                   <div class="row no-margin">
                       <!-- start information item -->
@@ -175,6 +178,16 @@
                       </div>
                       <!-- end information item -->
                   </div>
+                  <section class="wow fadeIn padding-60px-tb sm-padding-40px-tb bg-medium-light-gray" style="visibility: visible; animation-name: fadeIn;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 center-col position-relative text-center">
+                                <span class="text-extra-large text-black alt-font display-inline-block margin-5px-top margin-30px-right xs-no-margin-right xs-no-margin-top xs-margin-15px-bottom xs-width-100">I'd love to hear about your project</span>
+                                <a href="javascript:void(0);" class="btn btn-black btn-medium btn-rounded vertical-align-top xs-no-margin-right">Contact Me <i class="fa fa-phone"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                   <div class="row no-margin">
                       <!-- start information item -->
                       <div class="col-md-4 no-padding image-hover-style-3 height-100 last-paragraph-no-margin bg-light-gray">
@@ -306,20 +319,21 @@
                   </div>
               </div>
           </section>
-          <section class="wow fadeIn padding-60px-tb sm-padding-40px-tb bg-charcoal-gray" style="visibility: visible; animation-name: fadeIn;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 center-col position-relative text-center">
-                        <span class="text-extra-large text-white alt-font display-inline-block margin-5px-top margin-30px-right xs-no-margin-right xs-no-margin-top xs-margin-15px-bottom xs-width-100">I'd love to hear about your project</span>
-                        <a href="javascript:void(0);" class="btn btn-white btn-medium btn-rounded vertical-align-top xs-no-margin-right">Contact Me <i class="fa fa-phone"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
+          <section id="contact" class="wow fadeIn padding-60px-tb sm-padding-40px-tb bg-charcoal-gray" style="visibility: visible; animation-name: fadeIn;">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-12 col-sm-12 center-col position-relative text-center">
+                          <span class="text-extra-large text-white alt-font display-inline-block margin-5px-top margin-30px-right xs-no-margin-right xs-no-margin-top xs-margin-15px-bottom xs-width-100">I'd love to hear about your project</span>
+                          <a href="javascript:void(0);" class="btn btn-white btn-medium btn-rounded vertical-align-top xs-no-margin-right">Contact Me <i class="fa fa-phone"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </section>
           <script type="text/javascript" src="./js/jquery.js"></script>
           <script type="text/javascript" src="./js/bootstrap.min.js"></script>
           <!-- animation -->
           <script type="text/javascript" src="./js/wow.min.js"></script>
+          <script type="text/javascript" src="./js/smooth-scroll.js"></script>
 
           <script type="text/javascript" src="./js/main.js"></script>
         </body>

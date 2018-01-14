@@ -10,3 +10,9 @@
         live: true
     });
     wow.init();
+
+
+    $('.inner-link').smoothScroll({
+        speed: 900,
+        offset: -59
+    });
